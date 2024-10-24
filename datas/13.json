@@ -1,0 +1,122 @@
+[
+    {
+        "baseDate": "20241001",
+        "macAddress": "8f85db478833285653d331c567426868114d6de3a6d510f8a1c1763ab6fe07e9",
+        "apGroupName": "성산읍 공설묘지 봉안당",
+        "installLocationDetail": "장례식장 외벽-남쪽 주차장 방향",
+        "category": "복지시설",
+        "categoryDetail": "장례식장",
+        "addressDong": "제주특별자치도 서귀포시 성산읍 수산리",
+        "addressDetail": "서귀포시 성산읍 수산리 4711(성산읍 금백조로 548)",
+        "latitude": "33.434288",
+        "longitude": "126.816637"
+    },
+    {
+        "baseDate": "20241001",
+        "macAddress": "2c9aadeb4623a68d6754c363468bcc56b95e176c28f5ef44c59d3af7f5078b9f",
+        "apGroupName": "표선면충혼묘지",
+        "installLocationDetail": "화장실 벽-북서",
+        "category": "복지시설",
+        "categoryDetail": "묘지",
+        "addressDong": "제주특별자치도 서귀포시 표선면 성읍리",
+        "addressDetail": "서귀포시 표선면 성읍리 3146-8",
+        "latitude": "33.415049",
+        "longitude": "126.762068"
+    },
+    {
+        "baseDate": "20241001",
+        "macAddress": "38fe493884b31fb1af606890ac57799940e95ee8dc5de383c9553ccc6e2579a2",
+        "apGroupName": "성산읍 공설묘지 봉안당",
+        "installLocationDetail": "장례식장 천장",
+        "category": "복지시설",
+        "categoryDetail": "장례식장",
+        "addressDong": "제주특별자치도 서귀포시 성산읍 수산리",
+        "addressDetail": "서귀포시 성산읍 수산리 4711(성산읍 금백조로 548)",
+        "latitude": "33.434739",
+        "longitude": "126.816822"
+    },
+    {
+        "baseDate": "20241001",
+        "macAddress": "d3d950c39c9c9700577f867c070bceb860a1f5feb98380beb416f493e9862cb6",
+        "apGroupName": "홍익영아원",
+        "installLocationDetail": "다윗동 1층 내부",
+        "category": "복지시설",
+        "categoryDetail": "사회복지시설",
+        "addressDong": "제주특별자치도 제주시 도련일동",
+        "addressDetail": "제주시 도련일동 1888(화삼로 145)",
+        "latitude": "33.51685",
+        "longitude": "126.58567"
+    },
+    {
+        "baseDate": "20241001",
+        "macAddress": "4cffe647e2e8ac18ddf21b4eabbb7ccd84a3a58065d71d43a4de7775683977ee",
+        "apGroupName": "표선면충혼묘지",
+        "installLocationDetail": "화장실 벽-북동",
+        "category": "복지시설",
+        "categoryDetail": "묘지",
+        "addressDong": "제주특별자치도 서귀포시 표선면 성읍리",
+        "addressDetail": "서귀포시 표선면 성읍리 3146-8",
+        "latitude": "33.41514",
+        "longitude": "126.762708"
+    },
+    {
+        "baseDate": "20241001",
+        "macAddress": "39c91507f557d03b79c5df70aa62cdfb6d07ba121cafe956089e07d9c88a694c",
+        "apGroupName": "홍익영아원",
+        "installLocationDetail": "베들레햄 1층 내부",
+        "category": "복지시설",
+        "categoryDetail": "사회복지시설",
+        "addressDong": "제주특별자치도 제주시 도련일동",
+        "addressDetail": "제주시 도련일동 1888, 1층, 2층(화삼로 145)",
+        "latitude": "33.51679",
+        "longitude": "126.58558"
+    },
+    {
+        "baseDate": "20241001",
+        "macAddress": "6678e5b2120210a14dfbe82386fa2f06da84fc26353f0ab1f0904f6f8ddb2473",
+        "apGroupName": "성산읍 공설묘지 봉안당",
+        "installLocationDetail": "유족휴게실 천장",
+        "category": "복지시설",
+        "categoryDetail": "장례식장",
+        "addressDong": "제주특별자치도 서귀포시 성산읍 수산리",
+        "addressDetail": "서귀포시 성산읍 수산리 4711(성산읍 금백조로 548)",
+        "latitude": "33.434837",
+        "longitude": "126.816864"
+    },
+    {
+        "baseDate": "20241001",
+        "macAddress": "5216da59025cd89d490f2ec261f2f7b124b7370407c2e1e192c09cdc1ee7cb06",
+        "apGroupName": "홍익영아원",
+        "installLocationDetail": "베드레햄 2층 내부",
+        "category": "복지시설",
+        "categoryDetail": "사회복지시설",
+        "addressDong": "제주특별자치도 제주시 도련일동",
+        "addressDetail": "제주시 도련일동 1888, 1층, 2층(화삼로 145)",
+        "latitude": "33.51681",
+        "longitude": "126.58557"
+    },
+    {
+        "baseDate": "20241001",
+        "macAddress": "a0bb0d4123086a0f9e19f0f943cb3e75c517ac6732f8faeb48818fcd63bcb403",
+        "apGroupName": "홍익영아원",
+        "installLocationDetail": "다윗동 2층 내부",
+        "category": "복지시설",
+        "categoryDetail": "사회복지시설",
+        "addressDong": "제주특별자치도 제주시 도련일동",
+        "addressDetail": "제주시 도련일동 1888(화삼로 145)",
+        "latitude": "33.51684",
+        "longitude": "126.5857"
+    },
+    {
+        "baseDate": "20241001",
+        "macAddress": "e08adba17239c6dc95c21bdac7283eb9deb3b7245919d73ca780ed3649d06cc4",
+        "apGroupName": "성산읍 공설묘지 봉안당",
+        "installLocationDetail": "관리사무실 입구천장",
+        "category": "복지시설",
+        "categoryDetail": "장례식장",
+        "addressDong": "제주특별자치도 서귀포시 성산읍 수산리",
+        "addressDetail": "서귀포시 성산읍 수산리 4711(성산읍 금백조로 548)",
+        "latitude": "33.434946",
+        "longitude": "126.817184"
+    }
+]

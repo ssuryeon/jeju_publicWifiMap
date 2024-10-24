@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제주도 공공와이파이 지도</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=52390aa7ae68cc144f3865e87379664b&libraries=services,clusterer"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>제주도 공공와이파이 지도</h1>
+        <div class="options">
+            <form>
+                <input type="text" id="address" placeholder="이동할 주소를 입력하세요.(예:제주특별자치도 제주시 첨단로 242)">
+            </form>
+            <a href="#none" id="search"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <select id="categories">
+                <option value="X">분류</option>
+                <option value="0">전체</option>
+                <option value="1">공원</option>
+                <option value="2">관광지</option>
+                <option value="3">버스정류소</option>
+                <option value="4">의료시설</option>
+                <option value="5">체육시설</option>
+                <option value="6">해변</option>
+                <option value="7">공항/터미널/대합실</option>
+                <option value="8">올레코스</option>
+                <option value="9">전통시장</option>
+                <!-- <option value="10">한라산</option> 한라산은 데이터 존재 X-->
+                <option value="11">공공기관</option>
+                <option value="12">문화시설</option>
+                <option value="13">복지시설</option>
+                <option value="14">숲길</option>
+                <option value="15">전기차충전소</option>
+                <option value="16">테마거리</option>
+            </select>
+        </div>
+        <div id="map" class="map-container" style="width:500px;height:400px;"></div>
+    </div>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=52390aa7ae68cc144f3865e87379664b"></script>
+    <script src="script/jeju_map.js"></script>
+    <script src="script/map_search.js"></script>
+    <script src="script/addMarker.js"></script>
+</body>
+</html>

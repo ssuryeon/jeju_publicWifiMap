@@ -1,0 +1,57 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.container {
+    box-sizing: border-box;
+}
+.container h1 {
+    text-align: center;
+}
+.options {
+    width: 500px;
+    height: 35px;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    padding: 0;
+}
+.map-container {
+    margin-top: 5px;
+}
+.options form {
+    display: inline-block;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.options input[type=text] {
+    width: 375px;
+    height: 35px;
+    box-sizing: border-box;
+    margin-right: -5px;
+}
+.options input[type=text]:focus::placeholder {
+    color: transparent;
+}
+.options a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.options select {
+    width: 80px;
+    height: 35px;
+    margin-left: 4.5px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
