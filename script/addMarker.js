@@ -1,5 +1,5 @@
 var key = "rtcp252to292p511to32jt2r_t22o_21";
-    var clusterer = new kakao.maps.MarkerClusterer({
+var clusterer = new kakao.maps.MarkerClusterer({
     map: map, 
     averageCenter: true, 
     minLevel: 7, 
@@ -64,9 +64,22 @@ category.addEventListener('change', function(){
             fileName = `datas/${num}.json`;
         }
         $.get(fileName, function(data) {
-            var markers = $(data).map(function(i, position) {
-                return new kakao.maps.Marker({
+            var markers = []
+            var infowindows = [];
+            $(data).map(function(i, position) {
+                var marker = new kakao.maps.Marker({
                     position : new kakao.maps.LatLng(position.latitude, position.longitude)
+                });
+                markers.push(marker);
+                var iwContent = `<div style="font-size:13px;border:1px solid #333;text-align:center;"><div style="padding:5px;background-color:#333;color:#fff;">${position.apGroupName}</div><div style="padding:5px;background-color:#fff;color:black;display:block;">${position.addressDetail}<br>${position.installLocationDetail}</div></div>`;
+                var infowindow = new kakao.maps.InfoWindow({
+                    content: iwContent,
+                    removable: true
+                });
+                infowindows.push(infowindow);
+                kakao.maps.event.addListener(marker, 'click', function() {
+                    infowindows.forEach(iw => iw.close());
+                    infowindow.open(map, marker);
                 });
             });
             clusterer.addMarkers(markers);
