@@ -32,6 +32,7 @@ body {
     height: 35px;
     box-sizing: border-box;
     margin-right: -5px;
+    font-size: 12.5px;
 }
 .options input[type=text]:focus::placeholder {
     color: transparent;
@@ -51,7 +52,7 @@ body {
 .options select {
     width: 80px;
     height: 35px;
-    margin-left: 4.5px;
+    margin-left: 3.5px;
     box-sizing: border-box;
     vertical-align: middle;
 }
